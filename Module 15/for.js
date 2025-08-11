@@ -1,0 +1,63 @@
+// "I will invest at least 6 hrs every single day for next 60 days!" this message 60 times. So display this.
+
+for (i = 1; i <= 60; i++) {
+    console.log("I will invest at least 6 hrs every single day for next 60 days!");
+}
+
+
+// Find all the odd numbers from 61 to 100.
+
+for (i = 61; i <= 100; i++) {
+    if(i % 2 !== 0) {
+        console.log(i);
+    }
+}
+
+
+// Find all the even numbers from 78 to 98.
+
+for (i = 78; i <= 98; i++) {
+    if(i % 2 === 0) {
+        console.log(i);
+    }
+}
+
+
+// Display sum of all the odd numbers from 91 to 129.
+
+let Sum = 0;
+
+for (i = 91; i <= 129; i++) {
+    if (i % 2 !== 0) {
+        Sum += i;
+    }
+
+    console.log(`The number is ${i} Sum is ${Sum}`);
+}
+
+
+// Display sum of all the even numbers from 51 to 85.
+
+let sum = 0;
+
+for (i = 51; i <= 85; i++) {
+    if (i % 2 === 0) {
+        sum += i;
+    }
+
+    console.log(`The number is ${i} Sum is ${sum}`);
+}
+
+
+// Generate a multiplication table for number 9
+
+for (i = 1; i <= 10; i++) {
+    console.log(`9 * ${i} = ${i * 9}`);
+}
+
+
+// Implement a countdown timer that counts down from 81 to 65.
+
+for (i = 81; i >= 65; i--) {
+    console.log(i);
+}
